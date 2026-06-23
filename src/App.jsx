@@ -2,8 +2,9 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { useState } from "react";
 import { useEffect } from "react";
+import Home from "./pages/Home";
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
     const root = document.documentElement;
     if (darkMode) {
@@ -18,6 +19,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Home />
       </BrowserRouter>
     </>
   );

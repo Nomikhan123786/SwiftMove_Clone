@@ -23,28 +23,28 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li className=" [&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>About </Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Servies </Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>How it Works</Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Areas </Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Pricing </Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Testimonials </Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Qoute </Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Blog </Link>
             </li>
-            <li>
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Contact </Link>
             </li>
           </ul>
@@ -61,7 +61,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </button>
           </div>
         </div>
-        <div className="lg-hidden">
+        <div className="lg:hidden">
           <button onClick={() => setShow(!show)}>
             {show ? (
               <CrossIcon className="dark:text-white" />
