@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { useState } from "react";
 import { useEffect } from "react";
 import Home from "./pages/Home";
+import ScrollProgressBar from "./components/ScrollProgressBar";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
@@ -19,7 +20,8 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-        <Home  />
+        <ScrollProgressBar />
+        <Home />
       </BrowserRouter>
     </>
   );

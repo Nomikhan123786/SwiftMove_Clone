@@ -19,7 +19,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           />
         </div>
         <div className="  hidden lg:flex lg:items-center lg:gap-3">
-          <ul className="flex gap-5">
+          <ul className="flex gap-7 ">
             <li className=" [&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>About </Link>
             </li>
