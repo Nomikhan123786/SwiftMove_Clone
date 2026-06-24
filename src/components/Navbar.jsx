@@ -52,7 +52,11 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <div className="flex items-center  gap-5">
           <div className="  py-1 size-7">
             <button onClick={() => setDarkMode(!darkMode)}>
-              {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+              {darkMode ? (
+                <Sun size={20} className="text-white cursor-pointer " />
+              ) : (
+                <Moon size={20} className="cursor-pointer " />
+              )}
             </button>
           </div>
           <div className=" hidden sm:flex block w-40 h-13 rounded-lg bg-amber-600 px-5 my-3 text-center text-lg font-medium text-white transition-colors hover:bg-accent-600">
@@ -64,9 +68,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <div className="lg:hidden">
           <button onClick={() => setShow(!show)}>
             {show ? (
-              <CrossIcon className="dark:text-white" />
+              <CrossIcon className="dark:text-white cursor-pointer " />
             ) : (
-              <Menu className="dark:text-white" />
+              <Menu className="dark:text-white cursor-pointer " />
             )}
           </button>
         </div>

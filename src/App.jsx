@@ -19,7 +19,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-        <Home />
+        <Home  />
       </BrowserRouter>
     </>
   );
