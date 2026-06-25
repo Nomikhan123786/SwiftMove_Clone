@@ -8,43 +8,45 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/80">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 lg:h-20 lg:px-8 ">
-        <div className="flex items-center gap-2">
-          <img src={logo} alt="" className="h-8 w-auto lg:h-10 dark:hidden" />
+    <header className="sticky top-0 z-50 w-ful h-23 text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100">
+      <div className="container mx-auto flex h-16 items-center justify-between px-2 lg:h-23 lg:px-2 ">
+        <div className="flex items-center  gap-2 ">
+          <img src={logo} alt="" className="h-8 w-auto lg:h-13 dark:hidden " />
           <img
             src={light_logo}
             alt=""
-            className="hidden h-8 w-auto lg:h-10 dark:block"
+            className="hidden h-8 w-auto lg:h-13 dark:block py-1"
           />
         </div>
         <div className="  hidden lg:flex lg:items-center lg:gap-3">
           <ul className="flex gap-7 ">
-            <li className=" [&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>About </Link>
+            <li className=" ">
+              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
+                About{" "}
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Servies </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>How it Works</Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Areas </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Pricing </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Testimonials </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Qoute </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Blog </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-sm [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
+            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
               <Link>Contact </Link>
             </li>
           </ul>
@@ -59,8 +61,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               )}
             </button>
           </div>
-          <div className=" hidden sm:flex block w-40 h-13 rounded-lg bg-amber-600 px-5 my-3 text-center text-lg font-medium text-white transition-colors hover:bg-accent-600">
-            <button className="block w-35 rounded-lg bg-amber-600 px-5 py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-accent-600">
+          <div className=" hidden sm:flex block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-accent-600">
+            <button className="block w-35 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-accent-600">
               Free Qoute
             </button>
           </div>

@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -21,7 +21,9 @@ function App() {
       <BrowserRouter>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <ScrollProgressBar />
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </BrowserRouter>
     </>
   );

@@ -2,6 +2,9 @@ import ServiceSection from "../sections/ServiceSection";
 import Hero from "../sections/hero/Hero";
 import States from "../sections/States";
 import WorkSection from "../sections/WorkSection";
+import Areas from "./Areas";
+import PriceSection from "../sections/priceSection";
+import Testimonials from "./Testinomials";
 
 const Home = () => {
   return (
@@ -10,6 +13,9 @@ const Home = () => {
       <States />
       <ServiceSection />
       <WorkSection />
+      <Areas />
+      <PriceSection />
+      <Testimonials />
     </div>
   );
 };
