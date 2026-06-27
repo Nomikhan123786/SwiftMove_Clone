@@ -8,7 +8,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-ful h-23 text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100">
+    <header className="sticky top-0 z-50 w-ful h-23 sm:h-15 text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100">
       <div className="container mx-auto flex h-16 items-center justify-between px-2 lg:h-23 lg:px-2 ">
         <div className="flex items-center  gap-2 ">
           <img src={logo} alt="" className="h-8 w-auto lg:h-13 dark:hidden " />
