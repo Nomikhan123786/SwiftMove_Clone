@@ -8,10 +8,14 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-ful h-23 sm:h-15 text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100">
+    <header className="sticky top-0 z-50 w-ful h-16 lg:h-23  text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100">
       <div className="container mx-auto flex h-16 items-center justify-between px-2 lg:h-23 lg:px-2 ">
         <div className="flex items-center  gap-2 ">
-          <img src={logo} alt="" className="h-8 w-auto lg:h-13 dark:hidden " />
+          <img
+            src={logo}
+            alt=""
+            className="h-8 w-auto lg:h-13 dark:hidden py-1"
+          />
           <img
             src={light_logo}
             alt=""
@@ -61,8 +65,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               )}
             </button>
           </div>
-          <div className=" hidden sm:flex block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-accent-600">
-            <button className="block w-35 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-accent-600">
+          <div className=" hidden sm:flex block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-amber-600">
+            <button className="block w-35 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
               Free Qoute
             </button>
           </div>

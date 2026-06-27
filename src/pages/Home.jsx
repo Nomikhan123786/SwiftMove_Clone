@@ -5,6 +5,7 @@ import WorkSection from "../sections/WorkSection";
 import Areas from "./Areas";
 import PriceSection from "../sections/PriceSection";
 import Testimonials from "./Testinomials";
+import Quote from "./Quote";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Areas />
       <PriceSection />
       <Testimonials />
+      <Quote/>
     </div>
   );
 };
