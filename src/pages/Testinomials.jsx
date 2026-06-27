@@ -170,6 +170,7 @@ const Testimonials = () => {
                 </div>
               ))}
             </div>
+            {/* Next button */}
             <button
               onClick={nextSlide}
               className="absolute right-0 top-1/2 z-10 flex -translate-y-1/2 rounded-full bg-white p-3 shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700"
@@ -205,8 +206,6 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-
-        {/* Next button */}
       </div>
     </section>
   );

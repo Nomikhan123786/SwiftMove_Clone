@@ -3,7 +3,7 @@ import Hero from "../sections/hero/Hero";
 import States from "../sections/States";
 import WorkSection from "../sections/WorkSection";
 import Areas from "./Areas";
-import PriceSection from "../sections/priceSection";
+import PriceSection from "../sections/PriceSection";
 import Testimonials from "./Testinomials";
 
 const Home = () => {
