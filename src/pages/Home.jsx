@@ -6,6 +6,9 @@ import Areas from "./Areas";
 import PriceSection from "../sections/PriceSection";
 import Testimonials from "./Testinomials";
 import Quote from "./Quote";
+import Faq from "../sections/Faq";
+import CTASection from "../sections/CTASection";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -17,7 +20,10 @@ const Home = () => {
       <Areas />
       <PriceSection />
       <Testimonials />
-      <Quote/>
+      <Quote />
+      <Faq />
+      <CTASection />
+      <Footer />
     </div>
   );
 };
