@@ -25,8 +25,11 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <div className="  hidden lg:flex lg:items-center lg:gap-3">
           <ul className="flex gap-7 ">
             <li className=" ">
-              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
-                About{" "}
+              <Link
+                to="/about"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
+                About
               </Link>
             </li>
             <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">

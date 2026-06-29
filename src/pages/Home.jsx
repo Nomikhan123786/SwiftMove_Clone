@@ -8,7 +8,7 @@ import Testimonials from "./Testinomials";
 import Quote from "./Quote";
 import Faq from "../sections/Faq";
 import CTASection from "../sections/CTASection";
-import Footer from "../components/Footer";
+
 
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
       <Quote />
       <Faq />
       <CTASection />
-      <Footer />
+      
     </div>
   );
 };
