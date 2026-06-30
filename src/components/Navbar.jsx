@@ -38,7 +38,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 to="/services"
                 className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
-                Servies{" "}
+                Servies
               </Link>
             </li>
             <li>
@@ -60,7 +60,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               </Link>
             </li>
             <li>
-              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
+              <Link
+                to="/pricing"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
                 Pricing
               </Link>
             </li>
@@ -142,7 +145,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <Link to="/#area">Areas </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
-                <Link>Pricing </Link>
+                <Link to="/pricing">Pricing </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/#testimonial">Testimonials </Link>

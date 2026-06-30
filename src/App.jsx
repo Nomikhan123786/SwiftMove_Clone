@@ -16,6 +16,7 @@ import Testimonials from "./pages/Testinomials";
 import Quote from "./pages/Quote";
 import Areas from "./pages/Areas";
 import Service from "./pages/Service";
+import Pricing from "./pages/Pricing";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -44,6 +45,7 @@ function App() {
         <Route path="/#testimonial" element={<Testimonials />} />
         <Route path="/#quote" element={<Quote />} />
         <Route path="/services" element={<Service />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
       <BackToTop />
       <Footer />
