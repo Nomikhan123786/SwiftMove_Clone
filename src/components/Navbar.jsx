@@ -1,8 +1,9 @@
 import logo from "../assets/images/logo.svg";
 import light_logo from "../assets/images/logo-light.svg";
-import { Link } from "react-router-dom";
+
 import { Sun, Moon, Menu, CrossIcon } from "lucide-react";
 import { useState } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   const [show, setShow] = useState(false);
@@ -32,29 +33,64 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 About
               </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>Servies </Link>
+            <li>
+              <Link
+                to="/services"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
+                Servies{" "}
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>How it Works</Link>
+            <li>
+              <Link
+                smooth
+                to="/#work"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
+                How it Works
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>Areas </Link>
+            <li>
+              <Link
+                smooth
+                to="/#area"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
+                Areas
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>Pricing </Link>
+            <li>
+              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
+                Pricing
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>Testimonials </Link>
+            <li>
+              <Link
+                smooth
+                to="/#testimonial"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
+                Testimonials
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>Qoute </Link>
+            <li>
+              <Link
+                smooth
+                to="/#quote"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
+                Quote
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>Blog </Link>
+            <li>
+              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
+                Blog
+              </Link>
             </li>
-            <li className="[&>*]:flex-3  [&>*]:py-5 [&>*]:text-1xl [&>*]:font-medium [&>*]:text-gray-600 [&>*]:transition-colors [&>*]:hover:text-gray-900 [&>*]:dark:text-gray-400 [&>*]:dark:hover:text-white [&>*]:gap-100">
-              <Link>Contact </Link>
+            <li>
+              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -86,33 +122,38 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       </div>
       <div className="lg-hidden">
         {show ? (
-          <div className="border-t border-gray-200 bg-white px-4 py-4 dark:border-gray-800 dark:bg-gray-950">
-            <ul className=" [&>*]:block [&>*]:py-3 [&>*]:text-base [&>*]:font-medium [&>*]:text-gray-900 [&>*]:dark:text-white">
+          <div className="border-t border-gray-200 bg-white  py-4 dark:border-gray-800 dark:bg-gray-950">
+            <ul className="px-2 text-left">
               <li>
-                <Link>About </Link>
+                <Link
+                  to="/about"
+                  className=" block py-3 text-base font-medium text-gray-900 dark:text-white"
+                >
+                  About
+                </Link>
               </li>
-              <li>
-                <Link>Servies </Link>
+              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+                <Link to="/services">Servies </Link>
               </li>
-              <li>
-                <Link>How it Works</Link>
+              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+                <Link to="/#work">How it Works</Link>
               </li>
-              <li>
-                <Link>Areas </Link>
+              <li className="left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
+                <Link to="/#area">Areas </Link>
               </li>
-              <li>
+              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
                 <Link>Pricing </Link>
               </li>
-              <li>
-                <Link>Testimonials </Link>
+              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+                <Link to="/#testimonial">Testimonials </Link>
               </li>
-              <li>
-                <Link>Qoute </Link>
+              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+                <Link to="/#quote">Qoute </Link>
               </li>
-              <li>
+              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
                 <Link>Blog </Link>
               </li>
-              <li>
+              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
                 <Link>Contact </Link>
               </li>
             </ul>

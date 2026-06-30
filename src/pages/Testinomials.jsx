@@ -85,7 +85,7 @@ const Testimonials = () => {
 
   return (
     <section
-      id="testimonials"
+      id="testimonial"
       className="bg-gray-50 py-20 lg:py-28 dark:bg-gray-900"
     >
       <div className="container mx-auto px-4 lg:px-8">

@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
-
-const ServiceHero = () => {
+const TermServicesHero = () => {
   return (
     <section className="bg-blue-600 py-16 dark:bg-blue-900 lg:py-24">
       <div className="container mx-auto px-4 text-center lg:px-8">
         <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-          Our Services
+          Terms of Service
         </h1>
 
         <p className="mx-auto mt-4 max-w-2xl text-lg text-blue-100">
-          Professional moving services designed to make your relocation smooth,
-          safe, and stress-free.
+          Please read these terms carefully before using our services.
         </p>
 
         <nav
@@ -23,11 +21,11 @@ const ServiceHero = () => {
 
           <span>/</span>
 
-          <span className="text-white"> Services</span>
+          <span className="text-white">Terms of Service</span>
         </nav>
       </div>
     </section>
   );
 };
 
-export default ServiceHero;
+export default TermServicesHero;

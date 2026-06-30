@@ -1,6 +1,6 @@
-const areas = () => {
+const Areas = () => {
   return (
-    <section id="areas" className="bg-gray-50 py-20 lg:py-28 dark:bg-gray-900">
+    <section id="area" className="bg-gray-50 py-20 lg:py-28 dark:bg-gray-900">
       <div className=" px-4 lg:px-8">
         {/* Section Heading */}
         <div className="mx-auto max-w-3xl text-center">
@@ -433,4 +433,4 @@ const areas = () => {
   );
 };
 
-export default areas;
+export default Areas;
