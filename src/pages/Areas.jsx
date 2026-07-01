@@ -1,6 +1,9 @@
 const Areas = () => {
   return (
-    <section id="area" className="bg-gray-50 py-20 lg:py-28 dark:bg-gray-900">
+    <section
+      id="area"
+      className="animate-fade-in-up bg-gray-50 py-20 lg:py-28 dark:bg-gray-900"
+    >
       <div className=" px-4 lg:px-8">
         {/* Section Heading */}
         <div className="mx-auto max-w-3xl text-center">
@@ -19,7 +22,7 @@ const Areas = () => {
         </div>
 
         {/* Card */}
-        <div className="container mx-auto mt-16 grid gap-8 lg:grid-cols-2">
+        <div className="animate-fade-in-up container mx-auto mt-16 grid gap-8 lg:grid-cols-2">
           {/* Local Moves */}
           <div
             className="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
@@ -68,7 +71,7 @@ const Areas = () => {
             </p>
 
             {/* Areas List */}
-            <ul className="space-y-4 ">
+            <ul className="animate-fade-in-up space-y-4 ">
               <li className="flex items-center justify-between rounded-lg border border-gray-100 px-4 py-3 transition-colors hover:border-blue-200 hover:bg-blue-50/50 dark:border-gray-700 dark:hover:border-blue-800 dark:hover:bg-blue-900/20">
                 <div className="flex items-center gap-3">
                   <svg
@@ -229,7 +232,7 @@ const Areas = () => {
 
           {/* Long Distance */}
           <div
-            className="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
+            className="animate-fade-in-up rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
             data-animate="fade-in-up"
             data-delay="200"
             style={{
@@ -240,7 +243,7 @@ const Areas = () => {
             }}
           >
             {/* Header */}
-            <div className="mb-6 flex items-center gap-3">
+            <div className="animate-fade-in-up mb-6 flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-400">
                 <svg
                   className="h-6 w-6"
@@ -269,7 +272,7 @@ const Areas = () => {
             </p>
 
             {/* Routes List */}
-            <ul className="space-y-4">
+            <ul className="animate-fade-in-up space-y-4">
               <li className="flex items-center justify-between rounded-lg border border-gray-100 px-4 py-3 transition-colors hover:border-amber-200 hover:bg-amber-50/50 dark:border-gray-700 dark:hover:border-amber-800 dark:hover:bg-amber-900/20">
                 <div className="flex items-center gap-3">
                   <svg

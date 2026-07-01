@@ -15,12 +15,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <img
             src={logo}
             alt=""
-            className="h-8 w-auto lg:h-13 dark:hidden py-1"
+            className="h-10 w-auto lg:h-13 dark:hidden py-1"
           />
           <img
             src={light_logo}
             alt=""
-            className="hidden h-8 w-auto lg:h-13 dark:block py-1"
+            className="hidden h-10 w-auto lg:h-13 dark:block py-1"
           />
         </div>
         <div className="  hidden lg:flex lg:items-center lg:gap-3">
@@ -91,14 +91,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               </Link>
             </li>
             <li>
-              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
+              <Link
+                to="/contact"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
                 Contact
               </Link>
             </li>
           </ul>
         </div>
-        <div className="flex items-center  gap-5">
-          <div className="  py-1 size-7">
+        <div className="animate-fade-in-up flex items-center  gap-5">
+          <div className="  py-1 size-7 hover:bg-gray-100 dark:hover:bg-gray-700">
             <button onClick={() => setDarkMode(!darkMode)}>
               {darkMode ? (
                 <Sun size={20} className="text-white cursor-pointer " />
@@ -157,7 +160,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <Link>Blog </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
-                <Link>Contact </Link>
+                <Link to="/contact">Contact </Link>
               </li>
             </ul>
           </div>

@@ -66,10 +66,10 @@ function ShieldIcon() {
 
 const About = () => {
   return (
-    <div>
+    <div className="animate-fade-in-up">
       <AboutHero />
       {/* ── Mission ── */}
-      <section className="py-20 lg:py-28 dark:bg-gray-950/100">
+      <section className="animate-fade-in-up py-20 lg:py-28 dark:bg-gray-950/100">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
@@ -119,7 +119,7 @@ const About = () => {
               The principles that guide everything we do.
             </p>
           </div>
-          <div className="mt-16 grid gap-8 sm:grid-cols-3">
+          <div className="animate-fade-in-up mt-16 grid gap-8 sm:grid-cols-3">
             {values.map(({ title, description }) => (
               <div
                 key={title}
@@ -140,7 +140,7 @@ const About = () => {
         </div>
       </section>
       {/* ── Team ── */}
-      <section className="py-20 lg:py-28 dark:bg-gray-950/100">
+      <section className="animate-fade-in-up py-20 lg:py-28 dark:bg-gray-950/100">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
@@ -173,7 +173,7 @@ const About = () => {
         </div>
       </section>
       {/* ── CTA ── */}
-      <section className="bg-blue-600 py-16 lg:py-24 dark:bg-blue-900">
+      <section className="animate-fade-in-up bg-blue-600 py-16 lg:py-24 dark:bg-blue-900">
         <div className="container mx-auto px-4 text-center lg:px-8">
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
             Ready to Get Started?

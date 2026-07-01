@@ -22,7 +22,7 @@ const Pricing = () => {
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link
             to="/#quote"
-            className="inline-flex items-center rounded-full bg-white px-8 py-3 font-medium text-primary-600 shadow-lg transition-colors hover:bg-gray-100"
+            className="inline-flex items-center rounded-full bg-white px-8 py-3 font-medium text-blue-600 shadow-lg transition-colors hover:bg-gray-100"
           >
             Get Free Quote
           </Link>

@@ -17,6 +17,8 @@ import Quote from "./pages/Quote";
 import Areas from "./pages/Areas";
 import Service from "./pages/Service";
 import Pricing from "./pages/Pricing";
+import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollTop";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,7 +33,8 @@ function App() {
     }
   }, [darkMode]);
   return (
-    <>
+    <div className="animate-fade-in-up">
+      <ScrollToTop />
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <ScrollProgressBar />
       <Routes>
@@ -46,12 +49,13 @@ function App() {
         <Route path="/#quote" element={<Quote />} />
         <Route path="/services" element={<Service />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <BackToTop />
       <Footer />
 
       <MobileCTA />
-    </>
+    </div>
   );
 }
 

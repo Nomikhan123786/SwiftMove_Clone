@@ -1,7 +1,7 @@
 const WorkComponent = () => {
   return (
     <section id="how-it-works">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="animate-fade-in-up container mx-auto px-4 lg:px-8">
         {/* Header */}
         <div className="mx-auto max-w-3xl text-center">
           <h2
