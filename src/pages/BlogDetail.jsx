@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import POSTS from "../components/Blog/blogGrid/POSTS";
+import POSTS from "../components/Blog/BlogGrid/POSTS";
 
 // ---- Share icons (kept inline as small components for readability) -------
 function XIcon() {

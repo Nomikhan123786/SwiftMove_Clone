@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
-import POSTS from "./blogGrid/POSTS";
-import SearchBar from "./blogGrid/SearchBar";
-import FilterBar from "./blogGrid/FilterBar";
-import BlogCard from "./blogGrid/BlogCard";
+import POSTS from "./BlogGrid/POSTS";
+import SearchBar from "./BlogGrid/SearchBar";
+import FilterBar from "./BlogGrid/FilterBar";
+import BlogCard from "./BlogGrid/BlogCard";
 
 export default function BlogGrid() {
   const [activeFilter, setActiveFilter] = useState("all");
