@@ -1,12 +1,12 @@
 const WorkComponent = () => {
   return (
     <section id="how-it-works">
-      <div className="animate-fade-in-up container mx-auto px-4 lg:px-8">
+      <div className=" container mx-auto px-4 lg:px-8">
         {/* Header */}
         <div className="mx-auto max-w-3xl text-center">
           <h2
             className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
-            data-animate="fade-in-up"
+            data-aos="fade-up"
             data-delay="100"
           >
             Your Move in 4 Easy Steps
@@ -14,7 +14,7 @@ const WorkComponent = () => {
 
           <p
             className="mt-4 text-lg text-gray-600 dark:text-gray-400"
-            data-animate="fade-in-up"
+            data-aos="fade-up"
             data-delay="200"
           >
             We have streamlined the moving process to make it as simple and
@@ -25,7 +25,7 @@ const WorkComponent = () => {
         {/* Desktop Timeline */}
         <div
           className="mt-16 hidden lg:block"
-          data-animate="fade-in-up"
+          data-aos="fade-up"
           data-delay="300"
         >
           <div className="relative">

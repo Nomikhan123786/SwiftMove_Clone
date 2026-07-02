@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import Light_logo from "../assets/images/logo-light.svg";
 const Footer = () => {
   return (
-    <footer className="animate-fade-in-up bg-gray-900 pt-16 text-gray-300 lg:pt-24">
+    <footer
+      data-aos="fade-up"
+      className=" bg-gray-900 pt-16 text-gray-300 lg:pt-24"
+    >
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
           {/* Brand Column */}

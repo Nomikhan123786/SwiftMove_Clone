@@ -46,7 +46,7 @@ const pricingPlans = [
 
 const PriceComponent = () => {
   return (
-    <section id="pricing" className="animate-fade-in-up text-center">
+    <section id="pricing" data-aos="fade-up" className=" text-center">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Heading */}
         <div>
@@ -61,7 +61,7 @@ const PriceComponent = () => {
         </div>
 
         {/* Pricing Cards */}
-        <div className="animate-fade-in-up mt-12 grid gap-8 lg:grid-cols-3">
+        <div data-aos="fade-up" className=" mt-12 grid gap-8 lg:grid-cols-3">
           {pricingPlans.map((plan, index) => (
             <div
               key={index}

@@ -40,19 +40,28 @@ export default function Faq() {
     <section id="faq" className="bg-white py-20 lg:py-28 dark:bg-gray-950">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-4 inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 dark:bg-blue-900/50 dark:text-blue-300">
+          <div
+            data-aos="fade-up"
+            className="mb-4 inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 dark:bg-blue-900/50 dark:text-blue-300"
+          >
             FAQ
           </div>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+          <h2
+            data-aos="fade-up"
+            className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
+          >
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+          <p
+            data-aos="fade-up"
+            className="mt-4 text-lg text-gray-600 dark:text-gray-400"
+          >
             Find answers to common questions about our moving services and
             process.
           </p>
         </div>
 
-        <div className="mx-auto mt-16 max-w-3xl">
+        <div data-aos="fade-up" className="mx-auto mt-16 max-w-3xl">
           <div className="divide-y divide-gray-200 dark:divide-gray-800">
             {faqs.map((faq, index) => {
               const isOpen = openIndex === index;

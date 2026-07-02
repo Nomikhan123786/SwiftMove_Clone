@@ -1,11 +1,11 @@
 const ServicesComponent = () => {
   return (
     <section id="services">
-      <div className="animate-fade-in-up container mx-auto px-4 lg:px-8">
+      <div data-aos="fade-up" className=" container mx-auto px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2
             className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
-            data-animate="fade-in-up"
+            data-aos="fade-up"
             data-delay="100"
           >
             Moving Solutions for Every Need
@@ -13,7 +13,7 @@ const ServicesComponent = () => {
 
           <p
             className="mt-4 text-lg text-gray-600 dark:text-gray-400"
-            data-animate="fade-in-up"
+            data-aos="fade-up"
             data-delay="200"
           >
             Whether you are moving across town or across the country, we have
@@ -26,7 +26,7 @@ const ServicesComponent = () => {
           {/* card 1  */}
           <div
             className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
-            data-animate="fade-in-up"
+            data-aos="fade-up"
             data-delay="100"
           >
             <div className="cursor-pointer mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white dark:bg-blue-900/50 dark:text-blue-400">
@@ -58,6 +58,7 @@ const ServicesComponent = () => {
           {/* Card 2 */}
           <div
             className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            data-aos="fade-up"
             data-delay="150"
           >
             <div className="cursor-pointer mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white dark:bg-blue-900/50 dark:text-blue-400">
@@ -89,6 +90,7 @@ const ServicesComponent = () => {
           {/* Card 3  */}
           <div
             className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            data-aos="fade-up"
             data-delay="200"
           >
             <div className="cursor-pointer mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white dark:bg-blue-900/50 dark:text-blue-400">
@@ -119,6 +121,7 @@ const ServicesComponent = () => {
           {/* Card 4  */}
           <div
             className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            data-aos="fade-up"
             data-delay="250"
           >
             <div className="cursor-pointer mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white dark:bg-blue-900/50 dark:text-blue-400">
@@ -149,6 +152,7 @@ const ServicesComponent = () => {
           {/* Card 5  */}
           <div
             className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            data-aos="fade-up"
             data-delay="300"
           >
             <div className="cursor-pointer mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white dark:bg-blue-900/50 dark:text-blue-400">
@@ -179,6 +183,7 @@ const ServicesComponent = () => {
           {/* Card 6  */}
           <div
             className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            data-aos="fade-up"
             data-delay="350"
           >
             <div className="cursor-pointer mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white dark:bg-blue-900/50 dark:text-blue-400">

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const PrivacySection = () => {
   return (
-    <section className="py-20 lg:py-28 dark:bg-gray-950/100">
+    <section data-aos="fade-up" className="py-20 lg:py-28 dark:bg-gray-950/100">
       <div className="container mx-auto max-w-4xl px-4 lg:px-8">
         <div className="prose max-w-none dark:prose-invert">
           <p className="text-lg text-gray-600 dark:text-gray-400">

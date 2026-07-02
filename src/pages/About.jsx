@@ -69,7 +69,10 @@ const About = () => {
     <div className="animate-fade-in-up">
       <AboutHero />
       {/* ── Mission ── */}
-      <section className="animate-fade-in-up py-20 lg:py-28 dark:bg-gray-950/100">
+      <section
+        data-aos="fade-up"
+        className=" py-20 lg:py-28 dark:bg-gray-950/100"
+      >
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
@@ -112,14 +115,20 @@ const About = () => {
       <section className="bg-gray-50 py-20 lg:py-28 dark:bg-gray-900">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+            <h2
+              data-aos="fade-up"
+              className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
+            >
               Our Values
             </h2>
-            <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+            <p
+              data-aos="fade-up"
+              className="mt-4 text-lg text-gray-600 dark:text-gray-400"
+            >
               The principles that guide everything we do.
             </p>
           </div>
-          <div className="animate-fade-in-up mt-16 grid gap-8 sm:grid-cols-3">
+          <div data-aos="fade-up" className="mt-16 grid gap-8 sm:grid-cols-3">
             {values.map(({ title, description }) => (
               <div
                 key={title}
@@ -140,19 +149,28 @@ const About = () => {
         </div>
       </section>
       {/* ── Team ── */}
-      <section className="animate-fade-in-up py-20 lg:py-28 dark:bg-gray-950/100">
+      <section className=" py-20 lg:py-28 dark:bg-gray-950/100">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+            <h2
+              data-aos="fade-up"
+              className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
+            >
               Meet Our Team
             </h2>
-            <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+            <p
+              data-aos="fade-up"
+              className="mt-4 text-lg text-gray-600 dark:text-gray-400"
+            >
               The people behind our success.
             </p>
           </div>
-          <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div
+            data-aos="fade-up"
+            className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
+          >
             {team.map(({ name, role, image }) => (
-              <div key={name} className="text-center">
+              <div key={name} data-aos="fade-up" className="text-center">
                 <div className="mx-auto h-40 w-40 overflow-hidden rounded-full">
                   <img
                     src={image}
@@ -173,15 +191,25 @@ const About = () => {
         </div>
       </section>
       {/* ── CTA ── */}
-      <section className="animate-fade-in-up bg-blue-600 py-16 lg:py-24 dark:bg-blue-900">
+      <section
+        data-aos="fade-up"
+        className=" bg-blue-600 py-16 lg:py-24 dark:bg-blue-900"
+      >
         <div className="container mx-auto px-4 text-center lg:px-8">
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">
+          <h2
+            data-aos="fade-up"
+            className="text-3xl font-bold text-white sm:text-4xl"
+          >
             Ready to Get Started?
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-blue-100">
+          <p
+            data-aos="fade-up"
+            className="mx-auto mt-4 max-w-2xl text-lg text-blue-100"
+          >
             Planning a move? Get a free, no-obligation estimate today.
           </p>
           <Link
+            data-aos="fade-up"
             to="/#contact"
             className="mt-8 inline-flex items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-medium text-blue-600 shadow-lg transition-all hover:bg-gray-100"
           >

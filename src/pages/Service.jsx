@@ -90,7 +90,7 @@ const Service = () => {
   return (
     <div>
       <ServiceHero />
-      <section className="py-20 lg:py-28 dark:bg-gray-950/100">
+      <section data-aos="fade-up" className="py-20 lg:py-28 dark:bg-gray-950/100">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">

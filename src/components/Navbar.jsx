@@ -9,7 +9,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-ful h-16 lg:h-23  text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100">
+    <header
+      data-aos="fade-up"
+      className="sticky top-0 z-50 w-ful h-16 lg:h-23  text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100"
+    >
       <div className="container mx-auto flex h-16 items-center justify-between px-2 lg:h-23 lg:px-2 ">
         <div className="flex items-center  gap-2 ">
           <img
@@ -38,7 +41,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 to="/services"
                 className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
-                Servies
+                Service
               </Link>
             </li>
             <li>
@@ -86,7 +89,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               </Link>
             </li>
             <li>
-              <Link className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100">
+              <Link
+                to="/blog"
+                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+              >
                 Blog
               </Link>
             </li>
@@ -139,7 +145,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
-                <Link to="/services">Servies </Link>
+                <Link to="/services">Service </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/#work">How it Works</Link>
@@ -163,6 +169,11 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <Link to="/contact">Contact </Link>
               </li>
             </ul>
+            <div className=" hidden lg:flex block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-amber-600">
+              <button className="block w-35 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
+                Free Qoute
+              </button>
+            </div>
           </div>
         ) : (
           <></>

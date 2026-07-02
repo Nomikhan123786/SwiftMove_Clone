@@ -33,7 +33,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="py-20 lg:py-28 dark:bg-gray-950/100">
+    <section data-aos="fade-up" className="py-20 lg:py-28 dark:bg-gray-950/100">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-5">
           {/* Form */}

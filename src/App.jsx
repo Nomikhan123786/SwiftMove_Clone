@@ -19,8 +19,20 @@ import Service from "./pages/Service";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollTop";
+import Blog from "./pages/Blog";
+import BlogDetail from "./pages/BlogDetail";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      once: true,
+    });
+  }, []);
+
   const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
     const root = document.documentElement;
@@ -33,7 +45,7 @@ function App() {
     }
   }, [darkMode]);
   return (
-    <div className="animate-fade-in-up">
+    <>
       <ScrollToTop />
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <ScrollProgressBar />
@@ -49,13 +61,15 @@ function App() {
         <Route path="/#quote" element={<Quote />} />
         <Route path="/services" element={<Service />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog/:slug" element={<BlogDetail />} />
       </Routes>
       <BackToTop />
       <Footer />
 
       <MobileCTA />
-    </div>
+    </>
   );
 }
 

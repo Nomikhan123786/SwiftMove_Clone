@@ -18,7 +18,10 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-blue-100 to-white dark:from-gray-900 dark:to-gray-950">
+    <section
+      data-aos="fade-up"
+      className="relative overflow-hidden bg-gradient-to-b from-blue-100 to-white dark:from-gray-900 dark:to-gray-950"
+    >
       {/* Background   */}
 
       <div className="container mx-auto px-4 py-20 lg:px-8 lg:py-32">

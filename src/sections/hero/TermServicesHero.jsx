@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 const TermServicesHero = () => {
   return (
-    <section className="bg-blue-600 py-16 dark:bg-blue-900 lg:py-24">
+    <section
+      data-aos="fade-up"
+      className="bg-blue-600 py-16 dark:bg-blue-900 lg:py-24"
+    >
       <div className="container mx-auto px-4 text-center lg:px-8">
         <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
           Terms of Service

@@ -3,15 +3,24 @@ const Quote = () => {
     <section id="quote" className="bg-white py-20 lg:py-28 dark:bg-gray-950">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-4 inline-flex items-center rounded-full bg-amber-500 px-3 py-1 text-sm font-medium text-amber-700 dark:bg-amber-900/50 dark:text-amber-400">
+          <div
+            data-aos="fade-up"
+            className="mb-4 inline-flex items-center rounded-full bg-amber-700 px-3 py-1 text-sm font-medium text-amber-300 dark:bg-amber-900/50 dark:text-amber-400"
+          >
             Free Quote
           </div>
 
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+          <h2
+            data-aos="fade-up"
+            className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
+          >
             Get Your Free Moving Quote
           </h2>
 
-          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+          <p
+            data-aos="fade-up"
+            className="mt-4 text-lg text-gray-600 dark:text-gray-400"
+          >
             Tell us about your move and we will provide a detailed,
             no-obligation estimate within 24 hours.
           </p>
@@ -19,7 +28,7 @@ const Quote = () => {
 
         <div className="mt-12 grid gap-8 lg:grid-cols-3">
           {/* Quote Form */}
-          <div className="lg:col-span-2">
+          <div data-aos="fade-up" className="lg:col-span-2">
             <form className="rounded-2xl bg-gray-50 p-6 shadow-soft sm:p-8 dark:bg-gray-900">
               <div className="grid gap-5 sm:grid-cols-2">
                 {/* Full Name */}
@@ -218,7 +227,7 @@ const Quote = () => {
                 <div className="sm:col-span-2">
                   <button
                     type="submit"
-                    className="w-full rounded-lg bg-amber-600 px-8 py-3.5 text-base font-medium text-white shadow-lg shadow-amber-500/25 transition-all hover:bg-amber-800 hover:shadow-xl hover:shadow-amber-500/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+                    className="w-full rounded-lg bg-amber-700 px-8 py-3.5 text-base font-medium text-white shadow-lg shadow-amber-500/25 transition-all hover:bg-amber-800 hover:shadow-xl hover:shadow-amber-500/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
                   >
                     Get Free Quote
                   </button>
@@ -228,7 +237,7 @@ const Quote = () => {
           </div>
 
           {/* Sidebar */}
-          <div className="space-y-6">
+          <div data-aos="fade-up" className="space-y-6">
             {/* Trust Badges */}
             <div className="rounded-2xl bg-gray-50 p-6 shadow-soft dark:bg-gray-900">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
@@ -256,7 +265,7 @@ const Quote = () => {
 
                   <div>
                     <div className="font-medium text-gray-900 dark:text-white">
-                      Licensed &amp; Insured
+                      Licensed & Insured
                     </div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">
                       USDOT registered, fully insured

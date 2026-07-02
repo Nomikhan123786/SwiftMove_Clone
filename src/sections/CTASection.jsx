@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CTASection = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 to-blue-800 py-20 lg:py-28">
+    <section data-aos="fade-up" className=" relative overflow-hidden bg-gradient-to-br from-blue-600 to-blue-800 py-20 lg:py-28">
       {/* Background Effects */}
       <div className="absolute inset-0 z-0 overflow-hidden" aria-hidden="true">
         <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white/10 blur-3xl"></div>

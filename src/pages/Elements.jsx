@@ -114,7 +114,7 @@ function Accordion() {
 
 const Elements = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <ElementsHero />
       <section className="py-20 lg:py-28 dark:bg-gray-950/100">
         <div className="container mx-auto max-w-5xl px-4 lg:px-8">

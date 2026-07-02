@@ -9,21 +9,19 @@ import Quote from "./Quote";
 import Faq from "../sections/Faq";
 import CTASection from "../sections/CTASection";
 
-
 const Home = () => {
   return (
-    <div>
+    <div >
       <Hero />
       <States />
       <ServiceSection />
       <WorkSection />
-      <Areas />
+      < Areas  />
       <PriceSection />
       <Testimonials />
       <Quote />
       <Faq />
       <CTASection />
-      
     </div>
   );
 };

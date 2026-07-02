@@ -1,32 +1,40 @@
 const Areas = () => {
   return (
-    <section
-      id="area"
-      className="animate-fade-in-up bg-gray-50 py-20 lg:py-28 dark:bg-gray-900"
-    >
+    <section id="area" className=" bg-gray-50 py-20 lg:py-28 dark:bg-gray-900">
       <div className=" px-4 lg:px-8">
         {/* Section Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-4 inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 dark:bg-blue-900/50 dark:text-blue-300">
+          <div
+            data-aos="fade-up"
+            className="mb-4 inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 dark:bg-blue-900/50 dark:text-blue-300"
+          >
             Service Areas
           </div>
 
-          <h2 className="text-3xl  font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+          <h2
+            data-aos="fade-up"
+            className="text-3xl  font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
+          >
             We Move You Anywhere
           </h2>
 
-          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+          <p
+            data-aos="fade-up"
+            className="mt-4 text-lg text-gray-600 dark:text-gray-400"
+          >
             From local neighborhoods to coast-to-coast, our network covers it
             all.
           </p>
         </div>
 
         {/* Card */}
-        <div className="animate-fade-in-up container mx-auto mt-16 grid gap-8 lg:grid-cols-2">
+        <div
+          data-aos="fade-up"
+          className=" container mx-auto mt-16 grid gap-8 lg:grid-cols-2"
+        >
           {/* Local Moves */}
           <div
             className="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
-            data-animate="fade-in-up"
             data-delay="100"
             style={{
               opacity: 1,
@@ -232,8 +240,8 @@ const Areas = () => {
 
           {/* Long Distance */}
           <div
-            className="animate-fade-in-up rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
-            data-animate="fade-in-up"
+            className=" rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
+            data-aos="fade-up"
             data-delay="200"
             style={{
               opacity: 1,

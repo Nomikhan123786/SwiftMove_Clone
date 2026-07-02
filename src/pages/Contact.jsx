@@ -4,7 +4,7 @@ import Map from "../sections/Map";
 
 const Contact = () => {
   return (
-    <div className="animate-fade-in-up">
+    <div data-aos="fade-up" className="animate-fade-in-up">
       <ContactHero />
       <ContactSection />
       <Map />

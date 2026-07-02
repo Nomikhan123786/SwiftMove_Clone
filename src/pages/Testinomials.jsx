@@ -91,22 +91,31 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 lg:px-8">
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-4 inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 dark:bg-blue-900/50 dark:text-blue-300">
+          <div
+            data-aos="fade-up"
+            className="mb-4 inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 dark:bg-blue-900/50 dark:text-blue-300"
+          >
             Testimonials
           </div>
 
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+          <h2
+            data-aos="fade-up"
+            className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
+          >
             Trusted by Thousands of Families
           </h2>
 
-          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+          <p
+            data-aos="fade-up"
+            className="mt-4 text-lg text-gray-600 dark:text-gray-400"
+          >
             See what our customers say about their moving experience with
             SwiftMove.
           </p>
         </div>
 
         {/* slider */}
-        <div className="relative">
+        <div data-aos="fade-up" className="relative">
           <button
             onClick={prevSlide}
             className="absolute left-0 top-1/2 z-20 flex -translate-y-1/2 rounded-full bg-white p-3 shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700"
