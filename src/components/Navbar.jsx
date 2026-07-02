@@ -163,7 +163,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <Link to="/#quote">Qoute </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
-                <Link>Blog </Link>
+                <Link to="/blog">Blog </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/contact">Contact </Link>
