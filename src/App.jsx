@@ -66,9 +66,8 @@ function App() {
         <Route path="/blog/:slug" element={<BlogDetail />} />
       </Routes>
       <BackToTop />
-      <Footer />
-
       <MobileCTA />
+      <Footer />
     </>
   );
 }

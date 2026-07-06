@@ -25,7 +25,7 @@ const ServicesComponent = () => {
         <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* card 1  */}
           <div
-            className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            className="group relative rounded-2xl border border-gray-100 bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
             data-aos="fade-up"
             data-delay="100"
           >
@@ -37,9 +37,9 @@ const ServicesComponent = () => {
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                 />
               </svg>
@@ -57,7 +57,7 @@ const ServicesComponent = () => {
 
           {/* Card 2 */}
           <div
-            className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            className="group relative rounded-2xl border border-gray-100 bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
             data-aos="fade-up"
             data-delay="150"
           >
@@ -69,9 +69,9 @@ const ServicesComponent = () => {
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
                 />
               </svg>
@@ -89,7 +89,7 @@ const ServicesComponent = () => {
 
           {/* Card 3  */}
           <div
-            className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            className="group relative rounded-2xl border border-gray-100 bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
             data-aos="fade-up"
             data-delay="200"
           >
@@ -120,13 +120,13 @@ const ServicesComponent = () => {
 
           {/* Card 4  */}
           <div
-            className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            className="group relative rounded-2xl border border-gray-100 bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
             data-aos="fade-up"
             data-delay="250"
           >
             <div className="cursor-pointer mb-5 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white dark:bg-blue-900/50 dark:text-blue-400">
               <svg
-                classNameName="h-7 w-7"
+                className="h-7 w-7"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -151,7 +151,7 @@ const ServicesComponent = () => {
 
           {/* Card 5  */}
           <div
-            className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            className="group relative rounded-2xl border border-gray-100 bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
             data-aos="fade-up"
             data-delay="300"
           >
@@ -182,7 +182,7 @@ const ServicesComponent = () => {
 
           {/* Card 6  */}
           <div
-            className="group relative rounded-2xl bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
+            className="group relative rounded-2xl border border-gray-100 bg-white p-8 shadow-soft transition-all hover:shadow-soft-lg dark:bg-gray-800"
             data-aos="fade-up"
             data-delay="350"
           >

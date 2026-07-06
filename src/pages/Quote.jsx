@@ -5,7 +5,7 @@ const Quote = () => {
         <div className="mx-auto max-w-3xl text-center">
           <div
             data-aos="fade-up"
-            className="mb-4 inline-flex items-center rounded-full bg-amber-700 px-3 py-1 text-sm font-medium text-amber-300 dark:bg-amber-900/50 dark:text-amber-400"
+            className="mb-4 inline-flex items-center rounded-full bg-[#fddec7] px-3 py-1 text-sm font-medium text-[#5f2f0c] dark:bg-[#5f2f0c] dark:text-[#fddec7]"
           >
             Free Quote
           </div>
@@ -227,7 +227,7 @@ const Quote = () => {
                 <div className="sm:col-span-2">
                   <button
                     type="submit"
-                    className="w-full rounded-lg bg-amber-700 px-8 py-3.5 text-base font-medium text-white shadow-lg shadow-amber-500/25 transition-all hover:bg-amber-800 hover:shadow-xl hover:shadow-amber-500/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+                    className="w-full rounded-lg bg-[#F97316] px-8 py-3.5 text-base font-medium text-white shadow-lg shadow-amber-500/25 transition-all hover:bg-[#e76c14] hover:shadow-xl hover:shadow-amber-500/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
                   >
                     Get Free Quote
                   </button>

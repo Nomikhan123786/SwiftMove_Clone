@@ -44,7 +44,6 @@ function LinkIcon() {
   );
 }
 
-// ---- Renders the article body blocks (headings / paragraphs) -------------
 function ArticleBody({ content }) {
   if (!content || content.length === 0) {
     return (

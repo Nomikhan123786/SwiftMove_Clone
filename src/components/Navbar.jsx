@@ -11,27 +11,27 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <header
       data-aos="fade-up"
-      className="sticky top-0 z-50 w-ful h-16 lg:h-23  text-center border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100"
+      className="sticky top-0 z-50 w-full   border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100"
     >
-      <div className="container mx-auto flex h-16 items-center justify-between px-2 lg:h-23 lg:px-2 ">
+      <div className="container mx-auto flex h-16 items-center  justify-between px-4  lg:h-20 lg:px-8 ">
         <div className="flex items-center  gap-2 ">
           <img
             src={logo}
             alt=""
-            className="h-10 w-auto lg:h-13 dark:hidden py-1"
+            className="h-10 w-auto lg:h-12 dark:hidden py-1"
           />
           <img
             src={light_logo}
             alt=""
-            className="hidden h-10 w-auto lg:h-13 dark:block py-1"
+            className="hidden h-10 w-auto lg:h-12 dark:block py-1"
           />
         </div>
-        <div className="  hidden lg:flex lg:items-center lg:gap-3">
-          <ul className="flex gap-7 ">
+        <div className="  hidden lg:flex lg:items-center ">
+          <ul className="flex gap-8 ">
             <li className=" ">
               <Link
                 to="/about"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3  py-5 text-[14px] font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 About
               </Link>
@@ -39,7 +39,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <Link
                 to="/services"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 Service
               </Link>
@@ -48,7 +48,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <Link
                 smooth
                 to="/#work"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 How it Works
               </Link>
@@ -57,7 +57,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <Link
                 smooth
                 to="/#area"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 Areas
               </Link>
@@ -65,7 +65,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <Link
                 to="/pricing"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 Pricing
               </Link>
@@ -74,7 +74,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <Link
                 smooth
                 to="/#testimonial"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 Testimonials
               </Link>
@@ -83,7 +83,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <Link
                 smooth
                 to="/#quote"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 Quote
               </Link>
@@ -91,7 +91,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <Link
                 to="/blog"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 Blog
               </Link>
@@ -99,14 +99,14 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <Link
                 to="/contact"
-                className="flex-3 py-5 text-1xl font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
+                className="flex-3 py-5 text-[14px]  font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white gap-100"
               >
                 Contact
               </Link>
             </li>
           </ul>
         </div>
-        <div className="animate-fade-in-up flex items-center  gap-5">
+        <div className="flex items-center  gap-5">
           <div className="  py-1 size-7 hover:bg-gray-100 dark:hover:bg-gray-700">
             <button onClick={() => setDarkMode(!darkMode)}>
               {darkMode ? (
@@ -116,9 +116,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               )}
             </button>
           </div>
-          <div className=" hidden sm:flex block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-amber-600">
-            <button className="block w-35 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
-              Free Qoute
+          <div className=" hidden sm:flex block w-28 h-10 rounded-lg bg-[#F97316] px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-[#e76c14]">
+            <button className="block w-28 rounded-lg bg-[#F97316]  py-0.5 text-center text-[14px] font-medium text-white transition-colors hover:bg-[#e76c14]">
+              Free Quote
             </button>
           </div>
         </div>
@@ -132,7 +132,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           </button>
         </div>
       </div>
-      <div className="lg-hidden">
+      <div className="lg:hidden">
         {show ? (
           <div className="border-t border-gray-200 bg-white  py-4 dark:border-gray-800 dark:bg-gray-950">
             <ul className="px-2 text-left">
@@ -160,7 +160,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <Link to="/#testimonial">Testimonials </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
-                <Link to="/#quote">Qoute </Link>
+                <Link to="/#quote">Quote </Link>
               </li>
               <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/blog">Blog </Link>
@@ -170,8 +170,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               </li>
             </ul>
             <div className=" hidden lg:flex block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-amber-600">
-              <button className="block w-35 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
-                Free Qoute
+              <button className="block w-32 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
+                Free Quote
               </button>
             </div>
           </div>

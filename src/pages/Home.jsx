@@ -8,15 +8,17 @@ import Testimonials from "./Testinomials";
 import Quote from "./Quote";
 import Faq from "../sections/Faq";
 import CTASection from "../sections/CTASection";
+import WaveDivider from "../sections/WaveDivider";
 
 const Home = () => {
   return (
-    <div >
+    <div>
       <Hero />
+      <WaveDivider />
       <States />
       <ServiceSection />
       <WorkSection />
-      < Areas  />
+      <Areas />
       <PriceSection />
       <Testimonials />
       <Quote />

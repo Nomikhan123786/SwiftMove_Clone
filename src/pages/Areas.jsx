@@ -1,7 +1,7 @@
 const Areas = () => {
   return (
     <section id="area" className=" bg-gray-50 py-20 lg:py-28 dark:bg-gray-900">
-      <div className=" px-4 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-8">
         {/* Section Heading */}
         <div className="mx-auto max-w-3xl text-center">
           <div
@@ -44,7 +44,7 @@ const Areas = () => {
             }}
           >
             {/* Header */}
-            <div className="mb-6 flex items-center gap-3">
+            <div className="mb-6 m-2 flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
                 <svg
                   className="h-6 w-6"
@@ -73,7 +73,7 @@ const Areas = () => {
             </div>
 
             {/* Description */}
-            <p className="mb-6 text-gray-600 dark:text-gray-400">
+            <p className="mb-6 m-2 text-gray-600 dark:text-gray-400">
               Same-day and next-day service available for metro area
               relocations.
             </p>
@@ -251,8 +251,8 @@ const Areas = () => {
             }}
           >
             {/* Header */}
-            <div className="animate-fade-in-up mb-6 flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-400">
+            <div className="animate-fade-in-up mb-6 m-2 flex items-center gap-3">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#f3b080] text-[#F97316] dark:bg-amber-900/50 dark:text-[#f07014]">
                 <svg
                   className="h-6 w-6"
                   fill="none"
@@ -274,14 +274,14 @@ const Areas = () => {
             </div>
 
             {/* Description */}
-            <p className="mb-6 text-gray-600 dark:text-gray-400">
+            <p className="mb-6 m-2 text-gray-600 dark:text-gray-400">
               Cross-country moves with GPS tracking and guaranteed delivery
               dates.
             </p>
 
             {/* Routes List */}
             <ul className="animate-fade-in-up space-y-4">
-              <li className="flex items-center justify-between rounded-lg border border-gray-100 px-4 py-3 transition-colors hover:border-amber-200 hover:bg-amber-50/50 dark:border-gray-700 dark:hover:border-amber-800 dark:hover:bg-amber-900/20">
+              <li className="flex items-center justify-between rounded-lg border border-gray-100 px-4 py-3 transition-colors hover:border-[#fc9f5d] hover:bg-amber-50/50 dark:border-gray-700 dark:hover:border-[#c55c11] dark:hover:bg-amber-900/20">
                 <div className="flex items-center gap-3">
                   <svg
                     className="h-5 w-5 text-amber-500"

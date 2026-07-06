@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 
 const CTASection = () => {
   return (
-    <section data-aos="fade-up" className=" relative overflow-hidden bg-gradient-to-br from-blue-600 to-blue-800 py-20 lg:py-28">
+    <section
+      data-aos="fade-up"
+      className=" relative overflow-hidden bg-gradient-to-br from-blue-600 to-blue-800 py-20 lg:py-28"
+    >
       {/* Background Effects */}
       <div className="absolute inset-0 z-0 overflow-hidden" aria-hidden="true">
         <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white/10 blur-3xl"></div>
@@ -24,7 +27,7 @@ const CTASection = () => {
             {/* Get Quote Button */}
             <Link
               href="#quote"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-600 px-8 py-4 text-base font-medium text-white shadow-lg shadow-amber-500/30 transition-all hover:bg-amber-600 hover:shadow-xl"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#F97316] px-8 py-4 text-base font-medium text-white shadow-lg shadow-amber-500/30 transition-all hover:bg-amber-600 hover:shadow-xl"
             >
               Get Free Quote
               <svg
