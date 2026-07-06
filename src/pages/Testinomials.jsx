@@ -86,7 +86,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonial"
-      className="bg-gray-50 py-20 lg:py-28 dark:bg-gray-900"
+      className="bg-gray-50 py-20 lg:py-28 dark:bg-gray-900 "
     >
       <div className="container mx-auto px-4 lg:px-8">
         {/* Heading */}
@@ -137,7 +137,7 @@ const Testimonials = () => {
           <div className=" relative mt-16 px-14">
             {/* button previous */}
 
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 h-95 sm:h-auto">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3  lg:h-95">
               {visibleTestimonials.map((item, index) => (
                 <div
                   key={index}
