@@ -1,7 +1,7 @@
 import logo from "../assets/images/logo.svg";
 import light_logo from "../assets/images/logo-light.svg";
 
-import { Sun, Moon, Menu, CrossIcon } from "lucide-react";
+import { Sun, Moon, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -13,7 +13,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       data-aos="fade-up"
       className="sticky top-0 z-50 w-full   border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all dark:border-gray-800 dark:bg-gray-950/100"
     >
-      <div className="container mx-auto flex h-16 items-center  justify-between px-4  lg:h-20 lg:px-8 ">
+      <div className="container mx-auto flex h-16 items-center  justify-between px-4  sm:px-6 lg:h-20 lg:px-8 ">
         <div className="flex items-center  gap-2 ">
           <img
             src={logo}
@@ -107,12 +107,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           </ul>
         </div>
         <div className="flex items-center  gap-5">
-          <div className="  py-1 size-7 hover:bg-gray-100 dark:hover:bg-gray-700">
+          <div className="  py-1 size-7 hover:bg-gray-100 dark:hover:bg-gray-700 text-center">
             <button onClick={() => setDarkMode(!darkMode)}>
               {darkMode ? (
                 <Sun size={20} className="text-white cursor-pointer " />
               ) : (
-                <Moon size={20} className="cursor-pointer " />
+                <Moon
+                  size={20}
+                  strokeWidth={1}
+                  className="cursor-pointer width-2"
+                />
               )}
             </button>
           </div>
@@ -121,15 +125,21 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               Free Quote
             </button>
           </div>
-        </div>
-        <div className="lg:hidden">
-          <button onClick={() => setShow(!show)}>
-            {show ? (
-              <CrossIcon className="dark:text-white cursor-pointer " />
-            ) : (
-              <Menu className="dark:text-white cursor-pointer " />
-            )}
-          </button>
+          <div className="lg:hidden mt-2">
+            <button onClick={() => setShow(!show)}>
+              {show ? (
+                <X
+                  strokeWidth={1.5}
+                  className="dark:text-white cursor-pointer "
+                />
+              ) : (
+                <Menu
+                  strokeWidth={1.5}
+                  className="dark:text-white cursor-pointer "
+                />
+              )}
+            </button>
+          </div>
         </div>
       </div>
       <div className="lg:hidden">
@@ -139,37 +149,37 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <li>
                 <Link
                   to="/about"
-                  className=" block py-3 text-base font-medium text-gray-900 dark:text-white"
+                  className="pl-1 block py-3 text-base font-medium text-gray-900 dark:text-white"
                 >
                   About
                 </Link>
               </li>
-              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1 left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/services">Service </Link>
               </li>
-              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1 left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/#work">How it Works</Link>
               </li>
-              <li className="left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/#area">Areas </Link>
               </li>
-              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/pricing">Pricing </Link>
               </li>
-              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/#testimonial">Testimonials </Link>
               </li>
-              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/#quote">Quote </Link>
               </li>
-              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1 left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/blog">Blog </Link>
               </li>
-              <li className="left-0 block py-1 text-base font-medium text-gray-900 dark:text-white">
+              <li className="pl-1 left-0 block py-3 text-base font-medium text-gray-900 dark:text-white">
                 <Link to="/contact">Contact </Link>
               </li>
             </ul>
-            <div className=" hidden lg:flex block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-amber-600">
+            <div className=" pl-1 block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-amber-600">
               <button className="block w-32 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
                 Free Quote
               </button>
