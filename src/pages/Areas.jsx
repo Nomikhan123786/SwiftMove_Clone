@@ -13,6 +13,7 @@ const Areas = () => {
 
           <h2
             data-aos="fade-up"
+            data-aos-duration="1500"
             className="text-3xl  font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white"
           >
             We Move You Anywhere
@@ -20,6 +21,7 @@ const Areas = () => {
 
           <p
             data-aos="fade-up"
+            data-aos-duration="1500"
             className="mt-4 text-lg text-gray-600 dark:text-gray-400"
           >
             From local neighborhoods to coast-to-coast, our network covers it
@@ -30,12 +32,15 @@ const Areas = () => {
         {/* Card */}
         <div
           data-aos="fade-up"
+          data-aos-duration="1500"
           className=" container mx-auto mt-16 grid gap-8 lg:grid-cols-2"
         >
           {/* Local Moves */}
           <div
             className="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
             data-delay="100"
+            data-aos="fade-up"
+            data-aos-duration="1500"
             style={{
               opacity: 1,
               transform: "translateY(0px)",
@@ -242,6 +247,7 @@ const Areas = () => {
           <div
             className=" rounded-2xl border border-gray-100 bg-white p-6 shadow-soft dark:bg-gray-800"
             data-aos="fade-up"
+            data-aos-duration="1500"
             data-delay="200"
             style={{
               opacity: 1,

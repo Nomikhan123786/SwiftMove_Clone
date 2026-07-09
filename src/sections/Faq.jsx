@@ -73,10 +73,16 @@ export default function Faq() {
                     aria-expanded={isOpen}
                     className="flex w-full items-center justify-between text-left"
                   >
-                    <span className="text-lg font-semibold text-gray-900 dark:text-white">
+                    <span
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
+                      className="text-lg font-semibold text-gray-900 dark:text-white"
+                    >
                       {faq.question}
                     </span>
                     <span
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
                       className="ml-4 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-gray-100 text-gray-600 transition-transform duration-200 dark:bg-gray-800 dark:text-gray-400"
                       style={{
                         transform: isOpen ? "rotate(45deg)" : "rotate(0deg)",
@@ -92,7 +98,11 @@ export default function Faq() {
                       opacity: isOpen ? 1 : 0,
                     }}
                   >
-                    <p className="pt-4 text-gray-600 dark:text-gray-400">
+                    <p
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
+                      className="pt-4 text-gray-600 dark:text-gray-400"
+                    >
                       {faq.answer}
                     </p>
                   </div>
