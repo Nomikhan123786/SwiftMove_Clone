@@ -50,10 +50,13 @@ const Hero = () => {
               Licensed & Insured in All 50 States
             </div>
 
-            <h1 className="min-h-[112px] text-4xl font-bold font-stretch-200% tracking-tight text-gray-900 sm:min-h-[140px] sm:text-5xl lg:min-h-[145px] lg:text-6xl dark:text-white">
+            <h1 className="min-h-[112px] text-4xl font-bold  tracking-tight text-gray-900 sm:min-h-[140px] sm:text-5xl lg:min-h-[145px] lg:text-6xl dark:text-white">
               Moving Made
               <br />
-              <span className="bg-gradient-to-r from-blue-500 to-[#F97316] bg-clip-text text-transparent">
+              <span
+                data-aos="fade-up"
+                className="bg-gradient-to-r from-blue-500 to-[#F97316] bg-clip-text text-transparent"
+              >
                 {animatedWords[currentIndex]}
               </span>
             </h1>
