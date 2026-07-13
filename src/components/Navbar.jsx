@@ -179,8 +179,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <Link to="/contact">Contact </Link>
               </li>
             </ul>
-            <div className=" pl-1 block w-32 h-10 rounded-lg bg-amber-600 px-5 my-3 text-center text-sm  text-white transition-colors hover:bg-amber-600">
-              <button className="block w-32 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
+            <div className=" pl-1 block  w-full  rounded-lg  px-5 my-3 text-center text-sm  text-white transition-colors ">
+              <button className="block w-full p-5 h-10 rounded-lg bg-amber-600  py-0.5 text-center text-sm font-medium text-white transition-colors hover:bg-amber-600">
                 Free Quote
               </button>
             </div>
